@@ -3,10 +3,9 @@ let changeBtn = document.getElementById("change_button");
 let resetBtn = document.getElementById("reset");
 
  function resetColors() {
-      let gridItems = document.querySelectorAll('.grid-item');
-      gridItems.forEach(item => {
-        item.style.backgroundColor = 'transparent';
-      });
+      for (let i = 1; i <= 9; i++) {
+        document.getElementById(i.toString()).style.backgroundColor = 'transparent';
+      }
     }
 
     changeBtn.addEventListener('click', () => {
