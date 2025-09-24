@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let changeBtn = document.getElementById("change_button");
-let resetBtn = document.getElementById("reset");
+let resetBtn = document.getElementById("reset_button");
 
  function resetColors() {
       for (let i = 1; i <= 9; i++) {
